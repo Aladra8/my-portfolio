@@ -510,7 +510,7 @@ export default function App() {
   const experience = [
     {
       role: "Datacenter Operations Technician",
-      company: "Handy Hunts (Itaaly-Dispatch)",
+      company: "Handy Hunts (Italy-Dispatch)",
       type: "Freelance",
       date: "Jul 2024 - Present",
       description: [
