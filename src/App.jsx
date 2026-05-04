@@ -21,11 +21,11 @@ export default function App() {
 
   const galleryImages = [
     { src: "https://placehold.co/800x600/e2e8f0/475569?text=Datacenter+Rack", alt: "Datacenter Rack setup" },
-    { src: "/gallary2.jpg", alt: "Structured cabling work" },
+    { src: "/gallery2.jpg", alt: "Structured cabling work" },
     { src: "https://placehold.co/800x600/e2e8f0/475569?text=Hardware+Diagnostics", alt: "Motherboard diagnostics" },
     { src: "https://placehold.co/800x600/e2e8f0/475569?text=AI+Workflow", alt: "AI workflow analysis" },
     { src: "https://placehold.co/800x600/e2e8f0/475569?text=Server+Installation", alt: "Server installation" },
-    { src: "/gallary6.jpg", alt: "Lecturing and IT training session" },
+    { src: "/gallery6.jpg", alt: "Lecturing and IT training session" },
   ];
 
   const skills = [
@@ -42,12 +42,12 @@ export default function App() {
     {
       category: "Systems & AI Tools",
       icon: <Terminal className="w-5 h-5 text-blue-600" />,
-      items: ["Linux (Ubuntu, CentOS)", "Windows Server", "macOS", "Bash", "Python", "ServiceNow", "Jira", "Machine Learning"]
+      items: ["Linux (Ubuntu, CentOS)", "Windows Server", "macOS", "Bash", "Python", "C++", "ROS", "ServiceNow", "Jira", "Machine Learning"]
     },
     {
       category: "Hardware & Repair",
       icon: <Wrench className="w-5 h-5 text-blue-600" />,
-      items: ["Server Components", "RAID Configuration", "Diagnostics", "Motherboard Repair", "Soldering", "Hardware Upgrades"]
+      items: ["Server Components", "RAID Configuration", "Diagnostics", "PCBM/otherboard Repair", "Micro and Nano-Soldering", "Hardware Upgrades"]
     }
   ];
 
@@ -112,7 +112,7 @@ export default function App() {
   ];
 
   return (
-    <div className="min-h-screen bg-slate-50 font-sans text-slate-800">
+    <div className="min-h-screen bg-slate-50 font-sans text-slate-800 scroll-smooth">
       {/* Navigation */}
       <nav className="bg-white shadow-sm sticky top-0 z-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -149,13 +149,17 @@ export default function App() {
                 </span>
               </h1>
               <p className="text-lg text-slate-300 mb-10 leading-relaxed max-w-2xl">
-                10+ years of hands-on experience in enterprise datacenter operations, server hardware, and SLA-driven troubleshooting, bridging the gap between physical infrastructure and advanced Computer Engineering.
+                10+ years of hands-on experience in enterprise IT and now datacenter operations, server hardware, and SLA-driven troubleshooting, bridging the gap between physical infrastructure and advanced Computer Engineering.
               </p>
               
               <div className="flex flex-wrap gap-4">
                 <a href="mailto:aladra8@gmail.com" className="flex items-center gap-2 bg-blue-600 hover:bg-blue-500 text-white px-6 py-3 rounded-lg font-medium transition-all">
                   <Mail className="w-5 h-5" />
                   aladra8@gmail.com
+                </a>
+                <a href="/Baba_Drammeh_CV.pdf" download className="flex items-center gap-2 bg-slate-800 hover:bg-slate-700 text-white px-6 py-3 rounded-lg font-medium transition-all shadow-lg hover:shadow-xl">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                  Download CV
                 </a>
                 <div className="flex gap-4">
                   <a href="https://linkedin.com/in/baba-drammeh" target="_blank" rel="noreferrer" className="flex items-center justify-center w-12 h-12 bg-slate-800 hover:bg-slate-700 rounded-lg transition-colors">
@@ -173,7 +177,7 @@ export default function App() {
               <div className="relative">
                 <div className="absolute inset-0 bg-blue-500 blur-3xl opacity-20 rounded-full"></div>
                 <img 
-                  src="/baba-profile.jpg" 
+                  src="baba-profile.jpg" 
                   alt="Baba Drammeh" 
                   className="relative z-10 w-64 h-64 sm:w-80 sm:h-80 object-cover object-top rounded-full border-4 border-slate-800 shadow-2xl"
                 />
@@ -190,10 +194,10 @@ export default function App() {
             <div className="lg:col-span-2">
               <h2 className="text-3xl font-bold text-slate-900 mb-6">Professional Summary</h2>
               <p className="text-slate-600 text-lg leading-relaxed mb-6">
-                I am a highly reliable, detail-oriented professional with extensive experience in fast-paced datacenter operations. My expertise spans rack and stack, structured cabling, and critical issue resolution in enterprise environments like Motorola's Schio production site.
+                I am a highly reliable, detail-oriented professional with extensive experience in fast-paced IT infractures such as DataCenters: Engineering and operations. My expertise spans rack and stack, server hardware and configurations, structured cabling, and critical issue resolution in enterprise environments like Motorola's Schio production site and ENG Italia.
               </p>
               <p className="text-slate-600 text-lg leading-relaxed mb-6">
-                Recently, I have completed my M.Sc. in Computer Engineering (AI and Robotics), allowing me to combine deep, practical field experience with advanced technical knowledge in machine learning, system modeling, and data analytics.
+                Recently, I have completed my M.Sc. in Computer Engineering (AI and Robotics), allowing me to combine deep, practical field experience with advanced technical knowledge in AI and Machine learning, system modeling, understanding and operations of Autonomous Robots and ROS, Robotic Hardware and data analytics. This unique blend of hands-on datacenter expertise and cutting-edge AI research enables me to approach IT infrastructure challenges with a holistic perspective, optimizing both physical and digital systems for maximum performance and reliability.
               </p>
 
               {/* Action Shot / Datacenter Image Section - TWO PICTURE LAYOUT */}
