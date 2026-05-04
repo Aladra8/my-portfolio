@@ -476,12 +476,15 @@ export default function App() {
   const [activeTab, setActiveTab] = useState('experience');
 
   const galleryImages = [
-    { src: "https://placehold.co/800x600/e2e8f0/475569?text=Datacenter+Rack", alt: "Datacenter Rack setup" },
+    { src: "/gallery1.jpg", alt: "Datacenter Rack setup" },
     { src: "/gallery2.jpg", alt: "Structured cabling work" },
+    { src: "/gallery3.jpg", alt: "Hardware diagnostics: Bsquare Electronics" },
+    { src: "/gallery4.jpg", alt: "AI workflow analysis" },
+    { src: "/gallery5.jpg", alt: "Electronic Repair Program Presentation: IOM" },
+    { src: "/gallery6.jpg", alt: "Lecturing and IT training session" },
     { src: "https://placehold.co/800x600/e2e8f0/475569?text=Hardware+Diagnostics", alt: "Motherboard diagnostics" },
     { src: "https://placehold.co/800x600/e2e8f0/475569?text=AI+Workflow", alt: "AI workflow analysis" },
     { src: "https://placehold.co/800x600/e2e8f0/475569?text=Server+Installation", alt: "Server installation" },
-    { src: "/gallery6.jpg", alt: "Lecturing and IT training session" },
   ];
 
   const skills = [
