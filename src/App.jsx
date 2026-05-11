@@ -482,7 +482,7 @@ export default function App() {
     { src: "/gallery4.jpg", alt: "AI workflow analysis" },
     { src: "/gallery5.jpg", alt: "Electronic Repair Program Presentation: IOM" },
     { src: "/gallery6.jpg", alt: "Lecturing and IT training session" },
-    { src: "https://placehold.co/800x600/e2e8f0/475569?text=Hardware+Diagnostics", alt: "Motherboard diagnostics" },
+    { src: "https://placehold.co/800x600/e2e8f0/475569?text=Hardware+Diagnostics", alt: "Hardware diagnostics" },
     { src: "https://placehold.co/800x600/e2e8f0/475569?text=AI+Workflow", alt: "AI workflow analysis" },
     { src: "https://placehold.co/800x600/e2e8f0/475569?text=Server+Installation", alt: "Server installation" },
   ];
